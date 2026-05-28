@@ -1,0 +1,9 @@
+name: planner
+description: "Code analysis coordinator — dispatches readers to cover the codebase, then directs developer to write solution."
+model: claude-sonnet-4.6
+temperature: 0.2
+max_tokens: 32768
+max_steps: 50
+tools:
+  - read_file
+  - bash

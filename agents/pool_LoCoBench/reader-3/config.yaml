@@ -1,0 +1,9 @@
+name: reader-3
+description: "Code reading specialist — reads assigned source files, analyzes architecture/logic/patterns, and reports concise findings."
+model: claude-sonnet-4.6
+temperature: 0.2
+max_tokens: 32768
+max_steps: 40
+tools:
+  - read_file
+  - bash

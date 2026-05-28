@@ -1,0 +1,10 @@
+# Install from pyproject.toml (single source of truth for dependencies).
+# Usage: pip install -e .
+#
+# Or install dependencies directly:
+litellm>=1.0.0
+pyyaml>=6.0
+duckduckgo-search>=7.0.0
+aiohttp>=3.9.0
+certifi
+docker>=7.0.0

@@ -1,0 +1,15 @@
+name: lead_researcher
+description: "Self-evolving founding researcher — works solo in v000, delegates to specialists once L3 reflection creates them. Writes the final report in all modes."
+role: worker
+model: claude-sonnet-4.6
+temperature: 0.2
+max_tokens: 8192
+max_steps: 60
+tools:
+  - web_search
+  - web_fetch
+tool_budgets:
+  web_search: 25
+  web_fetch: 20
+skills:
+  - research-report-workflow

@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment
+.env
+
+# Runtime outputs
+runs/
+sessions/
+logs/
+evolved/
+
+# Benchmark data (download separately, see README)
+benchmarks/BeyondSWE/
+benchmarks/LOCA-bench/
+benchmarks/LoCoBench/
+benchmarks/SWE-bench_Pro-os/
+benchmarks/SWE-bench-Pro/
+benchmarks/SWE-bench/
+data/gaia/val_files/
+data/gaia/level_*_val*.json
+data/gaia/level_*_train.json
+data/gaia/train.json
+data/researchrubrics/*.jsonl
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*~

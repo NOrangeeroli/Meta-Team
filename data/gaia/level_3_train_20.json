@@ -1,0 +1,72 @@
+[
+    {
+        "task_id": "bec74516-02fc-48dc-b202-55e78d0e17cf",
+        "Question": "What is the average number of pre-2020 works on the open researcher and contributor identification pages of the people whose identification is in this file?",
+        "Level": 3,
+        "Final answer": "26.4",
+        "file_name": "bec74516-02fc-48dc-b202-55e78d0e17cf.jsonld",
+        "Annotator Metadata": {
+            "Steps": "1. Opened the JSONLD file.\n2. Opened each ORCID ID.\n3. Counted the works from pre-2022.\n4. Took the average: (54 + 61 + 1 + 16 + 0) / 5 = 132 / 5 = 26.4.",
+            "Number of steps": "4",
+            "How long did this take?": "15 minutes",
+            "Tools": "1. Web browser\n2. Search engine\n3. Calculator\n4. JSONLD file access",
+            "Number of tools": "4"
+        }
+    },
+    {
+        "task_id": "ebbc1f13-d24d-40df-9068-adcf735b4240",
+        "Question": "The Latin root of the Yola word \"gimlie\" shares a spelling with a Spanish word. What is the Google translation of the source title for the 1994 example sentence for that word in the Collins Spanish-to-English dictionary online? Answer in plain text, without punctuation.",
+        "Level": 3,
+        "Final answer": "The World of the Twenty First Century",
+        "file_name": "",
+        "Annotator Metadata": {
+            "Steps": "1. Searched \"Yola gimlie\" on Google.\n2. Opened https://en.wiktionary.org/wiki/gimlie#Yola.\n3. Noted the Latin root \"caminata\".\n4. Searched \"Collins Spanish-to-English dictionary caminata\" on Google.\n5. Opened https://www.collinsdictionary.com/dictionary/spanish-english/caminata.\n6. Scrolled down to the 1994 example.\n7. Searched \"El Mundo del Siglo Veintiuno translation\" on Google.\n8. Noted the result in the Translate widget.",
+            "Number of steps": "8",
+            "How long did this take?": "15 minutes",
+            "Tools": "1. Web browser\n2. Search engine\n3. Google Translate access",
+            "Number of tools": "3"
+        }
+    },
+    {
+        "task_id": "384d0dd8-e8a4-4cfe-963c-d37f256e7662",
+        "Question": "In the NCATS PubChem compound database for Food Additive Status classification, find the compound that has a molecular weight of 100 g/mol or less, 6 heavy atoms, 1 or fewer hydrogen bond acceptors, and a complexity between 10 and 15. Of the shared gene-chemical co-occurrences between its two possible enzyme transformations, what is the PubChem CID of the heaviest by molecular weight?",
+        "Level": 3,
+        "Final answer": "4192",
+        "file_name": "",
+        "Annotator Metadata": {
+            "Steps": "1. Searched \"NCATS PubChem compound database\" on Google.\n2. Opened \"PubChem\" on the NCATS NIH website.\n3. Clicked on the \"PubChem Compound\" link.\n4. Clicked on the \"Classification Browser\" link.\n5. Expanded \"Food Additives and Ingredients\" in the list.\n6. Clicked on the number link next to \"Food Additive Status\".\n7. Opened the filters and set them to maximum 100 g/mol weight, minimum 6 heavy atoms, maximum 1 H-bond acceptor, complexity 10-15.\n8. Opened the resulting \"HEXANE\" page.\n9. Scrolled to 10.6 Pharmacology and Biochemistry > Transformations.\n10. Opened the two enzyme transformations' pages (CYP2B6 and CYP2E1).\n11. Opened each one's gene-chemical co-occurrences full list.\n12. Opened each chemical they shared a co-occurrence with.\n13. Compared the weights to find the heaviest (Midazolam).\n14. Noted its PubChem CID (4192).",
+            "Number of steps": "14",
+            "How long did this take?": "20 minutes",
+            "Tools": "1. Web browser\n2. Search engine",
+            "Number of tools": "2"
+        }
+    },
+    {
+        "task_id": "983bba7c-c092-455f-b6c9-7857003d48fc",
+        "Question": "What animals that were mentioned in both Ilias Lagkouvardos's and Olga Tapia's papers on the alvei species of the genus named for Copenhagen outside the bibliographies were also present in the 2021 article cited on the alvei species' Wikipedia page about a multicenter, randomized, double-blind study?",
+        "Level": 3,
+        "Final answer": "mice",
+        "file_name": "",
+        "Annotator Metadata": {
+            "Steps": "1. Searched \"alvei copenhagen\" on Google.\n2. Opened https://en.wikipedia.org/wiki/Hafnia_(bacterium).\n3. Searched \"Ilias Lagkouvardos hafnia alvei\" on Google.\n4. Opened https://www.mdpi.com/2076-2607/11/1/123?type=check_update&version=2.\n5. Opened a new tab.\n6. Searched \"Olga Tapia hafnia alvei\" on Google.\n7. Opened https://pubmed.ncbi.nlm.nih.gov/36080356/.\n8. Found all animals mentioned in the first paper.\n9. Searched each animal from the first paper in the second paper.\n10. Noted the animals mentioned in both outside the bibliographies.\n11. Went back to the Wikipedia article.\n12. Opened the link in the references to \"The Probiotic Strain H. alvei HA4597® Improves Weight Loss in Overweight Subjects under Moderate Hypocaloric Diet: A Proof-of-Concept, Multicenter Randomized, Double-Blind Placebo-Controlled Study\".\n13. Opened the PDF.\n14. Found the animals shared by all three papers.",
+            "Number of steps": "14",
+            "How long did this take?": "25 minutes",
+            "Tools": "1. Web browser\n2. Search engine\n3. PDF access",
+            "Number of tools": "3"
+        }
+    },
+    {
+        "task_id": "c526d8d6-5987-4da9-b24c-83466fa172f3",
+        "Question": "In the NIH translation of the original 1913 Michaelis-Menten Paper, what is the velocity of a reaction to four decimal places using the final equation in the paper based on the information for Reaction 7 in the Excel file?",
+        "Level": 3,
+        "Final answer": "0.0424",
+        "file_name": "c526d8d6-5987-4da9-b24c-83466fa172f3.xlsx",
+        "Annotator Metadata": {
+            "Steps": "1. Searched \"NIH translation 1913 Michaelis-Menten Paper\" on Google.\n2. Opened \"The Original Michaelis Constant: Translation of the 1913 Michaelis-Menten Paper\" on the NIH website.\n3. Scrolled down to the final equation: v = (km ⋅ [S]) / (1 + (km/kcat) ⋅ [S]).\n4. Opened the Excel file.\n5. Searched \"Michaelis-Menten equation\" on Google to find the meaning of the variables.\n6. Opened the Wikipedia \"Michaelis–Menten kinetics\" page.\n7. Noted v = reaction rate (velocity of reaction) and kcat = catalytic rate constant (catalytic constant).\n8. Returned to the NIH paper and found km = Menten constant and [S] = substrate concentration.\n9. Plugged reaction 7's values from the Excel file into the equation: v = (0.052 * 72.3) / (1 + (0.052 / 0.0429) * 72.3) = 0.042416.\n10. Rounded to four decimal places (0.0424).",
+            "Number of steps": "10",
+            "How long did this take?": "20 minutes",
+            "Tools": "1. Excel file access\n2. Web browser\n3. Search engine\n4. Calculator",
+            "Number of tools": "4"
+        }
+    }
+]

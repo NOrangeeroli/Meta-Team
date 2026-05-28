@@ -1,0 +1,11 @@
+name: worker-b
+description: "General-purpose worker — can do data collection, email sending, file writing, or any MCP operation. Switches to local_db fallback when MCP crashes."
+model: claude-sonnet-4.6
+temperature: 0.2
+max_tokens: 32768
+max_steps: 200
+tools:
+  - loca_mcp
+  - read_file
+  - write_file
+  - bash

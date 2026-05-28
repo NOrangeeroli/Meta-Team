@@ -1,0 +1,11 @@
+name: chairman
+description: "Task coordinator — analyzes LOCA-bench task requirements, distributes subtasks to workers, verifies completeness, and signals task completion."
+model: claude-sonnet-4.6
+temperature: 0.2
+max_tokens: 32768
+max_steps: 500
+tools:
+  - loca_mcp
+  - read_file
+  - write_file
+  - bash

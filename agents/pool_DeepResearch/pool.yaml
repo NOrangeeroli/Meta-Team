@@ -1,0 +1,14 @@
+chairman: lead_researcher
+settings:
+  # Task execution phase: 30 minutes ceiling per task.
+  # Long-form research reports take time; allow ample budget.
+  max_seconds: 1800
+
+  # Inter-agent message ceiling. Solo mode (v000) uses ~0; multi-agent
+  # coordination easily hits 50-100 messages across a task.
+  max_messages: 600
+
+  # Per-reflection-phase timeout: 10 minutes each for L1/L2/L3/L4.
+  # Longer than default (300s) because research-domain reflection needs
+  # careful review of ~25 rubric verdicts.
+  reflection_phase_timeout: 600

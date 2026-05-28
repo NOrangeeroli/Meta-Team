@@ -1,0 +1,4 @@
+chairman: planner
+settings:
+  max_seconds: 1200
+  max_messages: 400
