@@ -51,11 +51,11 @@ Download benchmark data into the corresponding directories before running experi
 | Benchmark | Location | Source |
 |-----------|----------|--------|
 | SWE-bench Pro | `benchmarks/SWE-bench-Pro/` | [ScaleAI/SWE-bench_Pro](https://huggingface.co/datasets/ScaleAI/SWE-bench_Pro) + Docker images |
-| BeyondSWE | `benchmarks/BeyondSWE/data/` | [BeyondSWE](https://github.com/open-source-bswe/BeyondSWE) + Docker images |
-| LOCA-Bench | `benchmarks/LOCA-bench/` | [LOCA-bench](https://github.com/Jn-Huang/LOCA-bench) |
+| BeyondSWE | `benchmarks/BeyondSWE/data/` | [BeyondSWE](https://github.com/AweAI-Team/BeyondSWE) + Docker images |
+| LOCA-Bench | `benchmarks/LOCA-bench/` | [LOCA-bench](https://github.com/hkust-nlp/LOCA-bench) |
 | GAIA | `data/gaia/val_files/` | [GAIA](https://huggingface.co/datasets/gaia-benchmark/GAIA) (attachment files only; task splits are pre-included) |
-| LoCoBench | `benchmarks/LoCoBench/` | [LoCoBench](https://github.com/LoCoBench/LoCoBench) |
-| ResearchRubrics | `data/researchrubrics/researchrubrics.jsonl` | [ResearchRubrics](https://huggingface.co/datasets/AggAgent/ResearchRubrics) |
+| LoCoBench | `benchmarks/LoCoBench/` | [LoCoBench](https://github.com/SalesforceAIResearch/LoCoBench) |
+| ResearchRubrics | `data/researchrubrics/researchrubrics.jsonl` | [ResearchRubrics](https://huggingface.co/datasets/ScaleAI/researchrubrics) |
 
 ## Evolution and test
 
