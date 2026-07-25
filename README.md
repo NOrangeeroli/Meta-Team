@@ -154,7 +154,3 @@ Meta-Team/
 ├── data/                    # Data splits and placeholders
 └── assets/                  # Figures
 ```
-
-## Contact
-
-For questions or discussions, please open an issue on this repository.
