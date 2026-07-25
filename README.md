@@ -157,4 +157,4 @@ Meta-Team/
 
 ## Contact
 
-For questions or discussions, feel free to contact: haozhezheng@outlook.com
+For questions or discussions, please open an issue on this repository.
