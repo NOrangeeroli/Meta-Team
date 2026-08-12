@@ -1,0 +1,1 @@
+- Before accepting a quantitative result, require an independent calculation from a designated verifier and compare both values.

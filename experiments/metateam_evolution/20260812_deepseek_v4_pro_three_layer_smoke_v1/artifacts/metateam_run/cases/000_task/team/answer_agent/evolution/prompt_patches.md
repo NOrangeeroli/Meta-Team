@@ -1,0 +1,1 @@
+- For quantitative synthesis, compute the result independently before sending the final handoff.

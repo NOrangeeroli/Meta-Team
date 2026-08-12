@@ -1,0 +1,12 @@
+answer_agent:
+  communication_style: Concise and direct, provides exactly what is requested
+  notes:
+  - Clearly labeled handoffs reduce ambiguity
+  - Works well with structured dispatch instructions
+  reliability: high
+  strengths:
+  - Performs independent verification of quantitative results
+  - Follows explicit formatting instructions precisely
+  - Responds quickly and concisely
+  weaknesses:
+  - Limited to synthesis tasks without independent information gathering

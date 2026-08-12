@@ -1,0 +1,11 @@
+plan_agent:
+  communication_style: detailed and structured, sometimes overly directive
+  notes: Good at dispatching clear tasks; trust its problem decomposition but maintain
+    independent judgment during reflection phases.
+  reliability: high
+  strengths:
+  - Clear task descriptions with explicit format requirements
+  - Provides all necessary context in a single message
+  weaknesses:
+  - Tends to over-prescribe downstream agents' reflection steps rather than letting
+    them reflect independently

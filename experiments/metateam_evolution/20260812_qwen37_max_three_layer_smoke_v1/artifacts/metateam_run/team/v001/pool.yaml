@@ -1,0 +1,4 @@
+chairman: plan_agent
+settings:
+  max_seconds: 600
+  max_messages: 300
