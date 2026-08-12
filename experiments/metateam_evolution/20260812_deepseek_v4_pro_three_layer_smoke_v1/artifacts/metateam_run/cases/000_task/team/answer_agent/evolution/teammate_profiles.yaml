@@ -1,0 +1,16 @@
+plan_agent:
+  communication_style: Concise, well-structured, with explicit routing and format
+    expectations
+  notes:
+  - Clearly labeled handoffs to specific agents eliminate routing ambiguity
+  - Multi-layer protocols with explicit skip calls create clean phase transitions
+  - Is the sole submitter — specialists should never call set_final_output or terminate
+  reliability: high
+  strengths:
+  - Structured task decomposition with clear, numbered steps
+  - Independent verification — cross-checks results before final submission
+  - Explicit phase boundaries and handoff labeling reduce ambiguity
+  - Provides expected output format in instructions as a built-in correctness check
+  weaknesses:
+  - May provide full multi-phase protocol upfront, then re-confirm each phase — can
+    cause redundant execution if specialist proceeds ahead

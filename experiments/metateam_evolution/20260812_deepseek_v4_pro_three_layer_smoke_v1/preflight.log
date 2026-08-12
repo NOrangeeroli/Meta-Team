@@ -1,0 +1,10 @@
+.env file not found at /Users/chenyamei/RESEARCH/ning/codes/ma/metateam/.env — API configuration must be provided via environment variables. See .env.example for the template.
+{
+  "status": "PASS",
+  "requested_model": "deepseek-v4-pro",
+  "returned_model": "deepseek-v4-pro",
+  "tool_call_count": 1,
+  "tool_names": [
+    "record_probe"
+  ]
+}

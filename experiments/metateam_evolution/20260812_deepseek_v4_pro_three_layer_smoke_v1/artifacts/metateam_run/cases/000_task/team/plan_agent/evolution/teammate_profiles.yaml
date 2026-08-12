@@ -1,0 +1,13 @@
+answer_agent:
+  communication_style: Concise and direct; delivers final answers in exact format
+    without extra commentary.
+  notes:
+  - Clearly labeled handoffs reduce ambiguity
+  - Reliable for independent computation and verification tasks
+  reliability: high
+  strengths:
+  - Independent verification of quantitative results
+  - Concise communication style
+  - Follows multi-step protocols accurately
+  - Clearly labeled handoffs reduce ambiguity
+  weaknesses: []
