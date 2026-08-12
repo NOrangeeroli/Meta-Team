@@ -1,0 +1,13 @@
+plan_agent:
+  communication_style: Direct and precise, with explicit acceptance criteria.
+  notes:
+  - Values strict adherence to format rules
+  - Prefers concise instructions with explicit acceptance criteria
+  - Reliably dispatches self-contained tasks
+  reliability: high
+  strengths:
+  - Independent verification as a strength
+  - Concise communication style
+  - Clearly labeled handoffs reduce ambiguity
+  weaknesses:
+  - None observed

@@ -1,0 +1,11 @@
+answer_agent:
+  communication_style: concise, instruction-following
+  notes:
+  - clearly labeled handoffs reduce ambiguity
+  reliability: high
+  strengths:
+  - independent verification
+  - quantitative accuracy
+  - adherence to format constraints
+  weaknesses:
+  - latency under heavy reflection load (observed in this task)

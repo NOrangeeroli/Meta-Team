@@ -1,0 +1,138 @@
+{
+  "experiment_id": "20260812_qwen_plus_three_layer_smoke_v1",
+  "status": "FAIL",
+  "run_id": "20260812_143539",
+  "run_dir": "runs/20260812_143539",
+  "event_count": 170,
+  "gates": {
+    "G1_real_model_tool_path": {
+      "pass": true,
+      "models": [
+        "qwen-plus"
+      ],
+      "tool_call_count": 31
+    },
+    "G2_multi_agent_execution": {
+      "pass": false,
+      "agents_used": [
+        "plan_agent",
+        "answer_agent"
+      ],
+      "final_output": "FINAL ANSWER: 391"
+    },
+    "G3_phase_traversal": {
+      "pass": true,
+      "transitions": [
+        [
+          "task_execution",
+          "l1_reflection"
+        ],
+        [
+          "l1_reflection",
+          "l2_reflection"
+        ],
+        [
+          "l2_reflection",
+          "l3_reflection"
+        ]
+      ]
+    },
+    "G4_l1_local_memory": {
+      "pass": true,
+      "files": [
+        "team/v001/plan_agent/evolution/prompt_patches.md",
+        "team/v001/answer_agent/evolution/prompt_patches.md"
+      ]
+    },
+    "G5_l2_local_contract": {
+      "pass": true,
+      "files": [
+        "team/v001/plan_agent/evolution/teammate_profiles.yaml",
+        "team/v001/answer_agent/evolution/teammate_profiles.yaml",
+        "team/v001/plan_agent/evolution/correlations/answer_agent.md",
+        "team/v001/answer_agent/evolution/correlations/plan_agent.md"
+      ]
+    },
+    "G6_l3_global_constitution": {
+      "pass": true,
+      "marker": "## Independent Verification Handoff",
+      "reflection_applied_events": 1
+    },
+    "G7_version_chain": {
+      "pass": true,
+      "versions": [
+        "v000",
+        "v001"
+      ],
+      "changelog": [
+        {
+          "ts": "2026-08-12T14:43:22.458+08:00",
+          "case_index": 0,
+          "task_id": "task",
+          "from_version": "v000",
+          "to_version": "v001",
+          "modified_files": [
+            "answer_agent/evolution/prompt_patches.md",
+            "answer_agent/evolution/teammate_profiles.yaml",
+            "answer_agent/evolution/correlations/plan_agent.md",
+            "plan_agent/evolution/prompt_patches.md",
+            "plan_agent/evolution/teammate_profiles.yaml",
+            "plan_agent/evolution/correlations/answer_agent.md",
+            "constitution.md"
+          ],
+          "reflection_applied": true
+        }
+      ]
+    },
+    "G8_reload": {
+      "pass": true,
+      "loaded_agents": [
+        "answer_agent",
+        "file_agent",
+        "plan_agent",
+        "web_agent"
+      ]
+    },
+    "G9_credential_hygiene": {
+      "pass": true,
+      "findings": []
+    },
+    "protocol_tool_coverage": {
+      "pass": true,
+      "required": [
+        "apply_reflection",
+        "finalize_task",
+        "propose_reflection",
+        "skip_l1_reflection",
+        "skip_l2_reflection",
+        "skip_l3_reflection",
+        "suggest_team_improvement",
+        "update_correlation",
+        "update_prompt_patch",
+        "update_teammate_profile",
+        "view_current_config"
+      ],
+      "observed": [
+        "apply_reflection",
+        "bash",
+        "check_agent_status",
+        "finalize_task",
+        "list_pool",
+        "propose_reflection",
+        "read_messages",
+        "send_message",
+        "skip_l1_reflection",
+        "skip_l2_reflection",
+        "skip_l3_reflection",
+        "start_agent",
+        "suggest_team_improvement",
+        "update_correlation",
+        "update_prompt_patch",
+        "update_teammate_profile",
+        "view_current_config",
+        "wait_for_replies"
+      ],
+      "missing": []
+    }
+  }
+}
